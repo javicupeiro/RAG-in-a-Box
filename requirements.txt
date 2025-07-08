@@ -1,0 +1,9 @@
+# Document processors
+docling # To process files
+docling-core  # Required for types like ImageRefMode, Document, PictureItem, etc.
+
+# UI
+streamlit 
+
+# Image handling
+Pillow  # Needed for PIL.Image.Image
