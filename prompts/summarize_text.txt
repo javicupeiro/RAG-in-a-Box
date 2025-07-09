@@ -1,0 +1,8 @@
+You are an assistant tasked with summarizing texts. Provide a concise summary of the following text.
+
+TEXT TO SUMMARIZE:
+"""
+{text_content}
+"""
+
+Respond only with the summary, without any additional comments. Do not start your message by saying "Here is a summary" or anything similar. Simply provide the summary as it is.

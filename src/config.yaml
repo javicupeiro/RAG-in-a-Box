@@ -1,0 +1,14 @@
+llm:
+  provider: "ollama"
+  ollama:
+    host: "http://localhost:11434"
+    summarizer_model: "granite3.2-vision:latest"
+    generator_model: "granite3.2-vision:latest"
+
+paths:
+  prompts_dir: "prompts" 
+
+prompts:
+  summarize_text: "summarize_text.txt"
+  summarize_image: "summarize_img.txt"
+  summarize_table: "summarize_table.txt"

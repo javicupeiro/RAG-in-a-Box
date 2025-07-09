@@ -7,3 +7,6 @@ streamlit
 
 # Image handling
 Pillow  # Needed for PIL.Image.Image
+
+# LLM
+ollama # Needed to handle local LLMs

@@ -75,15 +75,8 @@ class PdfParser(BaseParser):
 
         # Iterate through each page to get the content in order and the page number.
         for element, _level in doc.iterate_items():
-            prov_list = getattr(element, "prov", [])
-            logger.info(f"***************")
-            logger.info(f"element: {element}")
-            logger.info(f"_level: {_level}")
-            logger.info(f"prov_list: {prov_list}")
-            
+            prov_list = getattr(element, "prov", [])            
             page_num = prov_list[0].page_no if prov_list and hasattr(prov_list[0], "page_no") else 0
-            logger.info(f"page_num: {page_num}")
-            logger.info(f"***************")
             chunk = None
             if isinstance(element, (TextItem, TitleItem)):
                 if element.text.strip():  # Only add if not empty

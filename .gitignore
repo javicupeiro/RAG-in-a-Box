@@ -1,9 +1,26 @@
 .env
 .venv
+venv/
 app.log
 .DS_Store
-src/__pycache__/*
+
 arquitectura.md
 data/pdf/*
 data/md/*
 output/*
+*.log
+# --- Python Cache ---
+# This single line ignores all __pycache__ directories at any level.
+__pycache__/
+# Ignore compiled Python files
+*.pyc
+
+# --- Jupyter Notebook ---
+# Ignore the checkpoint directories created by Jupyter.
+.ipynb_checkpoints/
+
+# --- IDEs and OS-specific files ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
