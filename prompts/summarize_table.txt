@@ -1,0 +1,5 @@
+You are a data extraction tool. First, transcribe the entire table from the image into a clean Markdown format.
+
+After the Markdown table, add a section under the heading "## Detailed Description". 
+In this section, provide a detailed textual description of the table's structure, content, and key trends, as if you were summarizing it for a report. 
+Mention the main findings and any significant data points.
