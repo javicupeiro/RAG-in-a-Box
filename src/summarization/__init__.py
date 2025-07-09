@@ -1,0 +1,1 @@
+from multimodal_summarizer import MultimodalSummarizer
